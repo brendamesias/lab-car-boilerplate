@@ -1,1 +1,16 @@
-/* Los estilos de tu proyecto */
+*{
+  box-sizing: border-box;
+}
+header{
+  background-color: #fff;
+  outline: 1px solid green;
+}
+header button{
+  margin-top: 2%;
+}
+header img{
+  outline: 1px solid blue;
+  margin-left: 20%;
+  margin-bottom: 7%;
+  display: block;
+}
