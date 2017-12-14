@@ -14,8 +14,8 @@ body {
   padding: 17px;
 }
 [class*=col-]{
-  outline: 1px solid black;
-  background-color: pink;
+  /*outline: 1px solid black;
+  background-color: pink;*/
 }
 main .container{
   background-image: url(../assets/images/taxi.jpg);
@@ -88,4 +88,33 @@ padding-bottom: 2em;
 .become-a-driver button{
   background-color:  #F7B617;
   font-weight: bolder;
+}
+.tarifas .row{
+  color: white;
+  background-color: #F7B617;
+}
+.tarifas .row section{
+  background-color: #F7B617;
+}
+.ubicacion{
+  display: block;
+  padding-bottom: 1em;
+}
+.ubicacion input{
+  background-color: #F7B617;
+  border-radius: 5px;
+  border: 2px solid white;
+  color:#fff;
+  padding: 0.2em;
+}
+input[type=text]:focus {
+    background-color: #C1C1C1;
+    color:black;
+}
+.tarifas .row section .boton{
+  text-align: center;
+  padding-bottom: 3em;
+}
+.tarifas .row section .boton button{
+  border: none;
 }
