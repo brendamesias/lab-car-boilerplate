@@ -33,9 +33,6 @@ main .container{
   margin-top: 10em;
   color: white;
 }
-.content h1{
-  display: inline;
-}
 .content img{
   display: inline;
   width: 5em;
@@ -45,6 +42,9 @@ main .container{
   margin-top: 1em;
   font-weight: bolder;
   border: none;
+}
+.desktop{
+  display: none;
 }
 .phone.row{
   background-color: #F7B617;
@@ -140,4 +140,46 @@ footer .apps img{
 }
 footer .apps span{
   color: white;
+}
+@media screen and (min-width: 750px) and (max-width:1500px) {
+  .movile{
+    display: none;
+  }
+  .desktop{
+    display: block;
+    text-align: left;
+  }
+  .desktop h3{
+    padding: 0;
+    margin: 0.2em;
+    display: inline;
+  }
+  .checks{
+    display: block;
+  }
+  .desktop .icon{
+    display: inline;
+  }
+  .content img{
+    display: inline;
+    width: 6em;
+    padding-bottom: 10px;
+  }
+  .desktop button{
+    display: inline;
+  }
+  .palabra_hr{
+    text-align: center;
+  }
+  .desktop h4{
+    position: relative;
+    /*outline: 1px solid black;*/
+    display: inline;
+    top: 1.7em;
+    background-color: #F7B617;
+    padding: 0.3em
+  }
+  .content{
+    margin-top: 4em;
+  }
 }
