@@ -24,3 +24,25 @@ main .container{
   background-position:bottom;
   height: 30em;
 }
+.content{
+  padding: 2em;
+  background-color: #F7B617;
+  border: none;
+  outline: none;
+  text-align:left;
+  margin-top: 10em;
+  color: white;
+}
+.content h1{
+  display: inline;
+}
+.content img{
+  display: inline;
+  width: 5em;
+}
+.content button{
+  display: block;
+  margin-top: 1em;
+  font-weight: bolder;
+  border: none;
+}
