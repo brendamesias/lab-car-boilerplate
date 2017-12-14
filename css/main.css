@@ -13,10 +13,14 @@ body {
 .navbar-brand{
   padding: 17px;
 }
-
-
-
 [class*=col-]{
   outline: 1px solid black;
   background-color: pink;
+}
+main .container{
+  background-image: url(../assets/images/taxi.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position:bottom;
+  height: 30em;
 }
