@@ -46,7 +46,7 @@ main .container{
   font-weight: bolder;
   border: none;
 }
-section.row{
+.phone.row{
   background-color: #F7B617;
   color:white;
 }
@@ -56,12 +56,36 @@ section.row{
   background-color: #F7B617;
   color:white;
 }
-section img{
+.phone img{
 width: 80%;
 height: auto;
 padding-top: 2em;
 padding-bottom: 2em;
 }
-section p{
+.phone p{
   padding-bottom: 2em;
+  font-weight: bolder;
+}
+.become-a-driver .container{
+  background-image: url(../assets/images/conduce.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position:center;
+  height: 20em;
+  color: white;
+  text-align:left;
+}
+.become-a-driver div div div{
+  background:rgba(0,0,0,0.4);
+  height: 100%;
+  padding-left: 1.5em;
+  padding-right: 1.5em;
+}
+.become-a-driver h4{
+  padding-top: 2.5em;
+  font-weight: bolder;
+}
+.become-a-driver button{
+  background-color:  #F7B617;
+  font-weight: bolder;
 }
