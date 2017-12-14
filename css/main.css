@@ -46,3 +46,22 @@ main .container{
   font-weight: bolder;
   border: none;
 }
+section.row{
+  background-color: #F7B617;
+  color:white;
+}
+.marco_for_phone{
+  padding-top: 2em;
+  text-align: center;
+  background-color: #F7B617;
+  color:white;
+}
+section img{
+width: 80%;
+height: auto;
+padding-top: 2em;
+padding-bottom: 2em;
+}
+section p{
+  padding-bottom: 2em;
+}
