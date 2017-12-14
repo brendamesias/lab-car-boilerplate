@@ -1,16 +1,22 @@
 *{
   box-sizing: border-box;
 }
-header{
-  background-color: #fff;
-  outline: 1px solid green;
+body {
+   padding-top: 76px;
+ }
+ .navbar-header{
+   padding-bottom: 25px;
+ }
+ .nav{
+   height: 100%;
+ }
+.navbar-brand{
+  padding: 17px;
 }
-header button{
-  margin-top: 2%;
-}
-header img{
-  outline: 1px solid blue;
-  margin-left: 20%;
-  margin-bottom: 7%;
-  display: block;
+
+
+
+[class*=col-]{
+  outline: 1px solid black;
+  background-color: pink;
 }

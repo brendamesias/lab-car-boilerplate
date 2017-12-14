@@ -10,18 +10,61 @@
     <link rel="stylesheet" href="css/main.css">
   </head>
   <body>
-    <header>
+
+    <!--Navbar-->
+    <nav class="navbar navbar-default navbar-fixed-top">
       <div class="container">
-        <button type="button" class="btn btn-default">
-          <span class="glyphicon glyphicon-menu-hamburger"></span>
-        </button>
-        <img src="assets/images/logoForma.png" alt="logo">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="#">
+          <img src="assets/images/logoForma.png" alt="logo">
+          </a>
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false"
+            aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li>
+              <a>Viaja</a>
+            </li>
+            <li>
+              <a>Conduce</a>
+            </li>
+            <li>
+              <a>Inicia Sesión</a>
+            </li>
+          </ul>
+        </div>
       </div>
-    </header>
+    </nav>
 
 
-    <!--jquery(necessary for bootstrap's Javascript plugins)-->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+
+
+
+
+    <!--ejemplo offset-->
+    <div class="row">
+      <div class="col-md-4">.col-md-4</div>
+      <div class="col-md-4 col-md-offset-4">.col-md-4 .col-md-offset-4</div>
+    </div>
+    <div class="row">
+      <div class="col-md-3 col-md-offset-3">.col-md-3 .col-md-offset-3</div>
+      <div class="col-md-3 col-md-offset-3">.col-md-3 .col-md-offset-3</div>
+    </div>
+    <div class="row">
+      <div class="col-md-6 col-md-offset-3">.col-md-6 .col-md-offset-3</div>
+    </div>
+
+
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+  crossorigin="anonymous"></script>
   </body>
 </html>
