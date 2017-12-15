@@ -17,6 +17,7 @@ body {
   /*outline: 1px solid black;
   background-color: pink;*/
 }
+/*main / information for app, backrogund image taxies and city*/
 main .container{
   background-image: url(../assets/images/taxi.jpg);
   background-repeat: no-repeat;
@@ -24,7 +25,7 @@ main .container{
   background-position:bottom;
   height: 30em;
 }
-.content{
+.content-information-main{
   padding: 2em;
   background-color: #F7B617;
   border: none;
@@ -33,30 +34,29 @@ main .container{
   margin-top: 10em;
   color: white;
 }
-.content img{
+.content-information-main img{
   display: inline;
   width: 5em;
 }
-.content button{
+.content-information-main button{
   display: block;
   margin-top: 1em;
   font-weight: bolder;
   border: none;
 }
-.desktop{
+.desktop-main{
   display: none;
 }
-.phone.row{
+/*section iphone*/
+.phone .row{
   background-color: #F7B617;
   color:white;
 }
 .marco_for_phone{
   padding-top: 2em;
   text-align: center;
-  background-color: #F7B617;
-  color:white;
 }
-.version_desktop{
+.desktop-main{
   display: none;
 }
 .phone img{
@@ -69,6 +69,9 @@ margin-bottom: 1em;
 .phone p{
   padding-bottom: 2em;
   font-weight: bolder;
+}
+.desktop-iphone{
+  display: none;
 }
 .become-a-driver .container{
   background-image: url(../assets/images/conduce.jpg);
@@ -95,9 +98,6 @@ margin-bottom: 1em;
 }
 .tarifas .row{
   color: white;
-  background-color: #F7B617;
-}
-.tarifas .row section{
   background-color: #F7B617;
 }
 .ubicacion{
@@ -144,15 +144,15 @@ footer .apps img{
 footer .apps span{
   color: white;
 }
-@media screen and (min-width: 750px) and (max-width:1500px) {
-  .movile{
+@media screen and (min-width: 500px)  {
+  .movile-main{
     display: none;
   }
-  .desktop{
+  .desktop-main{
     display: block;
     text-align: left;
   }
-  .desktop h3{
+  .desktop-main h3{
     padding: 0;
     margin: 0.2em;
     display: inline;
@@ -160,7 +160,7 @@ footer .apps span{
   .checks{
     display: block;
   }
-  .desktop .icon{
+  .desktop-main .icon{
     display: inline;
   }
   .content img{
@@ -168,13 +168,13 @@ footer .apps span{
     width: 6em;
     padding-bottom: 10px;
   }
-  .desktop button{
+  .desktop-main button{
     display: inline;
   }
   .palabra_hr{
     text-align: center;
   }
-  .desktop h4{
+  .desktop-main h4{
     position: relative;
     /*outline: 1px solid black;*/
     display: inline;
@@ -182,13 +182,40 @@ footer .apps span{
     background-color: #F7B617;
     padding: 0.3em
   }
-  .content{
+  .content-information-main{
     margin-top: 4em;
   }
-  .version_desktop{
+  .movile-iphone{
+    display: none;
+  }
+  .desktop-iphone{
     display: block;
   }
-  .version_movile{
-    display: none;
+  .desktop-iphone .container{
+    background-color: #F7B617;
+  }
+  .desktop-iphone .container-fluid .col-sm-11, .col-md-10{
+    border: 1px solid white;
+    border-left: none;
+    margin-top: 2em;
+    margin-bottom: 1em;
+    height: 20em;
+  }
+  .desktop-iphone img{
+    border: none;
+    padding: 1.3em;
+    margin: 0;
+    height: 20em;
+    width: auto;
+  }
+  .desktop-iphone .image-iphone{
+    text-align:center;
+  }
+  .text-iphone{
+    padding-right: 6em;
+  }
+  .text-iphone p{
+    display: inline;
+    vertical-align: middle;
   }
 }
