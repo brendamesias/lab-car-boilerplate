@@ -150,6 +150,9 @@ footer .apps span{
 .sesion{
   background-color: #08AC9D;
 }
+.navbar a{
+  cursor: pointer;
+}
 .user{
   text-align: center;
 }
