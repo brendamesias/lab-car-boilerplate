@@ -115,17 +115,19 @@ input[type=text]:focus {
     background-color: #fff;
     color:black;
 }
+.tarifas .row .section-tarifas{
+  padding-left: 4em;
+  padding-top: 1em;
+}
 .tarifas .row section .boton{
   text-align: center;
-  padding-top: 1em;
-  padding-bottom: 2em;
 }
 .tarifas .row section .boton button{
   border: none;
 }
 .mapa{
   text-align: center;
-  padding-bottom: 2em;
+  padding: 1.3em;
 }
 iframe {
  width: 100%;
@@ -198,7 +200,7 @@ footer .apps span{
     border: 1px solid white;
     border-left: none;
     margin-top: 2em;
-    margin-bottom: 1em;
+    margin-bottom: 2em;
     height: 20em;
   }
   .desktop-iphone img{
@@ -217,5 +219,14 @@ footer .apps span{
   .text-iphone p{
     display: inline;
     vertical-align: middle;
+  }
+  .become-a-driver div div div{
+    background:rgba(0,0,0,0);
+  }
+  .become-a-driver div div div div{
+    background:rgba(0,0,0,0.4);
+    height: 100%;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
   }
 }
