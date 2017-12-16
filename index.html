@@ -36,12 +36,15 @@
               <a>Conduce</a>
             </li>
             <li>
-              <a>Inicia Sesión</a>
+              <a data-toggle="modal" data-target="#iniciar_sesion" data-whatever="@mdo">Inicia Sesión</a>
             </li>
           </ul>
         </div>
       </div>
     </nav>
+
+
+
 
     <!--main-->
     <main>
@@ -66,12 +69,12 @@
                 <span class="icon-checkmark"></span><h3>Viaja con </h3>
                 <img src="assets/images/logoBlanco.png" alt="logo">
               </div>
-              <button type="button" class="btn btn-default">Registrate</button>
+              <button type="button" class="btn btn-default" data-toggle="modal" data-target="#registrate" data-whatever="@mdo">Registrate</button>
               <div class="palabra_hr">
                 <h4>O bien</h4>
               </div>
               <hr>
-              <button type="button" class="btn btn-default">Conviértete en conductor</button>
+              <button type="button" class="btn btn-default" data-toggle="modal" data-target="#conductor" data-whatever="@mdo">Conviértete en conductor</button>
             </div>
 
           </div>
@@ -113,7 +116,7 @@
             <div class="col-xs-12 col-sm-4 col-sm-offset-8">
               <h4>Conduce cuando quieras</h4>
               <p>LabCar es una opción flexible para alcanzar tus metas financieras.</p>
-              <button type="button" class="btn btn-warning">Conviértete en conductor</button>
+              <button type="button" class="btn btn-warning" data-toggle="modal" data-target="#conductor" data-whatever="@mdo">Conviértete en conductor</button>
             </div>
           </div>
         </div>
@@ -182,6 +185,93 @@
         </div>
       </div>
     </footer>
+
+    <!--modal Inicia sesion-->
+    <div class="modal fade" id="iniciar_sesion" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content sesion">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title" id="exampleModalLabel">Iniciar sesion</h4>
+          </div>
+          <div class="user">
+            <img src="assets/images/user.png" alt="user">
+          </div>
+          <form class="user-password">
+            <div class="input-group">
+              <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+              <input id="email" type="text" class="form-control" name="email" placeholder="Username">
+            </div>
+            <div class="input-group">
+              <span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
+              <input id="password" type="password" class="form-control" name="password" placeholder="Password">
+            </div>
+            <div class="loging">
+              <button type="button" class="btn btn-warning">LOGING</button>
+            </div>
+            <div class="forgot_password">
+              <span>Forgot password? </span><a class="clickhere" href="#"> Click here</a>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <!--modal registrate-->
+    <div class="modal fade" id="registrate" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title" id="exampleModalLabel">New message</h4>
+          </div>
+          <div class="modal-body">
+            <form>
+              <div class="form-group">
+                <label for="recipient-name" class="control-label">Recipient:</label>
+                <input type="text" class="form-control" id="recipient-name">
+              </div>
+              <div class="form-group">
+                <label for="message-text" class="control-label">Message:</label>
+                <textarea class="form-control" id="message-text"></textarea>
+              </div>
+            </form>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">Send message</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--modal convi+ertete en conductor-->
+    <div class="modal fade" id="conductor" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title" id="exampleModalLabel">New message</h4>
+          </div>
+          <div class="modal-body">
+            <form>
+              <div class="form-group">
+                <label for="recipient-name" class="control-label">Recipient:</label>
+                <input type="text" class="form-control" id="recipient-name">
+              </div>
+              <div class="form-group">
+                <label for="message-text" class="control-label">Message:</label>
+                <textarea class="form-control" id="message-text"></textarea>
+              </div>
+            </form>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">Send message</button>
+          </div>
+        </div>
+      </div>
+    </div>
 
     <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
     crossorigin="anonymous"></script>
